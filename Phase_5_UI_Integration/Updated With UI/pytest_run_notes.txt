@@ -1,0 +1,8 @@
+Run all tests:
+pytest -v
+
+Run only backend tests:
+pytest -v test_backend.py test_backend_unit.py test_backend_integration.py
+
+Run only app scoring tests:
+pytest -v test_app_hybrid_scoring.py

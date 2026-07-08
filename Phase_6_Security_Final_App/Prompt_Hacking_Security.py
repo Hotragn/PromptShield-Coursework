@@ -34,7 +34,7 @@
 
 
 import sys
-get_ipython().system('{sys.executable} -m pip install openai python-dotenv --quiet')
+# get_ipython().system('{sys.executable} -m pip install openai python-dotenv --quiet')
 
 import os, json, re
 import openai
